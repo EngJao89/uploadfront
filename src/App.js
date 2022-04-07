@@ -7,6 +7,7 @@ import { Container, Content } from './styles';
 
 import Upload from './components/Upload';
 import FileList from './components/FileList';
+import Menu from './components/Menu';
 
 import api from './services/api';
 
@@ -100,13 +101,17 @@ class App extends Component {
     const { uploadedFiles } = this.state;
 
     return (
-      <Container>
-        <Content>
-          <Upload onUpload={this.handleUpload}/>
-          {!!uploadedFiles.length && <FileList files={uploadedFiles} onDelete={this.handleDelete} />}
-        </Content>
-        <GlobalStyles />
-      </Container>);
+      <>
+        <Menu />
+        <Container>
+          <Content>
+            <Upload onUpload={this.handleUpload}/>
+            {!!uploadedFiles.length && <FileList files={uploadedFiles} onDelete={this.handleDelete} />}
+          </Content>
+          <GlobalStyles />
+        </Container>
+      </>
+    );
   }
 }
 
