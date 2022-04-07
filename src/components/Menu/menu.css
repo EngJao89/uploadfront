@@ -1,0 +1,36 @@
+.navbar{
+  background-color:rgb(15, 23, 46);
+  border-bottom: 1px solid #e7e7e7;
+  border-radius: 0;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  position: relative;
+  z-index: 1000;
+}
+.menu{
+  position: relative;
+  top: 0px;
+  left: 20px;
+  height: 100%;
+  width: 250px;
+  font-weight: bold;
+  display: flex;
+  background-color:rgb(15, 23, 46);
+}
+.container {
+  background-color:rgb(15, 23, 46);
+  border-radius: 15px;
+  height: 100%;
+  margin-right: 14px;
+  display: flex;
+  align-items: center;
+}
+.menu-link {
+  color: #FFF;
+  background-color:rgb(15, 23, 46);
+  padding: 12px 24px;
+  border-radius: 4px;
+}
