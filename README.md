@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+App feito para upload de imagens com armazenamento na amazon S3!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
